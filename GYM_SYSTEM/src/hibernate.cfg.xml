@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!DOCTYPE hibernate-configuration PUBLIC
+ "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- <property name="connection.url">jdbc:mysql://localhost:3306/man?useUnicode=true&amp;characterEncoding=utf-8</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password"></property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="eclipse.connection.profile">com.mysql.jdbc.Driver</property> -->
+		
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="show_sql">true</property>
+		
+		<!-- <mapping resource="com/po/User.hbm.xml"/>
+		<mapping resource="com/po/Role.hbm.xml"/>
+		<mapping resource="com/po/Resource.hbm.xml"/>
+		<mapping resource="com/po/Authority.hbm.xml"/>
+		<mapping resource="com/po/Document.hbm.xml"/>
+		<mapping resource="com/po/InstOne.hbm.xml"/>g
+		<mapping resource="com/po/InstTwo.hbm.xml"/>
+		<mapping resource="com/po/InstThree.hbm.xml"/>
+		<mapping resource="com/po/Position.hbm.xml"/>
+		<mapping resource="com/po/PositionType.hbm.xml"/>
+		<mapping resource="com/po/SalaryItem.hbm.xml"/>
+		<mapping resource="com/po/SalaryStandar.hbm.xml"/>
+		<mapping resource="com/po/SalaryStandarItem.hbm.xml"/> -->
+		
+		<!-- <mapping resource="com/po/MyTest.hbm.xml"/> -->
+	</session-factory>
+</hibernate-configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
