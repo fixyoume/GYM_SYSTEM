@@ -3,13 +3,13 @@ package com.gymsystem.po;
 import java.io.Serializable;
 import java.sql.Date;
 
-import javax.enterprise.inject.Default;
+
 
 public class Worker implements Serializable {
 
 	private Integer worker_id;
 	private String workerNumber;
-	private boolean sex ;		//true 为男， false 为 女；
+	private boolean sex ;		//true 为锟叫ｏ拷 false 为 女锟斤拷
 	private int age;
 	private String phone;
 	private String email;

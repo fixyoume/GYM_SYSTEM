@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ground_notice</title>
+    <link rel="stylesheet" href="../css/ground_notice.css">
+</head>
+<body>
+    <table>
+      <tr>
+        <th colspan="4">场地公告</th>
+      </tr>
+      <tr>
+        <td>标&nbsp;题</td>
+        <td>日&nbsp;期</td>
+        <td>发布人</td>
+        <td>删&nbsp;除</td>
+      </tr>
+      <tr>
+        <td colspan="4"><a href="">添加公告</a></td>
+      </tr>
+    </table>
+
+    <!--  add_notice dialog-->
+    <div id="ground_notice_add">
+        <p>
+          <label for="notice_title"></label>
+          <input id="notice_title" type="text" name=""/>
+        </p>
+        <p>
+          <label for="notice_content"></label>
+          <textarea id="notice_content"></textarea>
+        </p>
+    </div>
+
+
+    <!-- ajax  value 一开始是隐藏的 ..dialog -->
+    <div id="ground_notice_detail">
+      <p>
+        <label for="notice_id">公告编号</label>
+        <input id="notice_id" type="text" name=""/>
+      </p>
+      <p>
+        <label for="notice_type">公告类型</label>
+        <input id="notice_type" type="text" name=""/>
+      </p>
+      <p>
+        <label for="notice_time">公告日期</label>
+        <input id="notice_time" type="text" name=""/>
+      </p>
+      <p>
+        <label for="notice_person">发布人</label>
+        <input id="notice_person" type="text" name=""/>
+      </p>
+      <p>
+        <label for="content">公告内容</label>
+        <textarea id="content"></textarea>
+      </p>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="../js/jquery.1.10.2.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../js/ground_notice.js"></script>
+</body>
+</html>

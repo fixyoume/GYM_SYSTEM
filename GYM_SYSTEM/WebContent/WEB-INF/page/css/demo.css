@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 100px;
+    color: aqua;
+    background: rebeccapurple;
+}
+/*
+    分割线----------
+ */
+
+.update_div_size{
+    width:300px;
+}
