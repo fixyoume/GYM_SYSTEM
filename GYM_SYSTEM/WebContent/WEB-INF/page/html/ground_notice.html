@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ground_notice</title>
+    <link rel="stylesheet" href="../css/jquery.ui.css"/>
     <link rel="stylesheet" href="../css/ground_notice.css">
 </head>
 <body>
@@ -17,18 +18,17 @@
         <td>删&nbsp;除</td>
       </tr>
       <tr>
-        <td colspan="4"><a href="">添加公告</a></td>
+        <td colspan="4"><a id="ground_notice_add_a" href="#">添加公告</a></td>
       </tr>
     </table>
 
-    <!--  add_notice dialog-->
     <div id="ground_notice_add">
         <p>
-          <label for="notice_title"></label>
+          <label for="notice_title">公告标题</label>
           <input id="notice_title" type="text" name=""/>
         </p>
         <p>
-          <label for="notice_content"></label>
+          <label for="notice_content">公告内容</label>
           <textarea id="notice_content"></textarea>
         </p>
     </div>
@@ -60,12 +60,8 @@
 
 
 
-
-
-
-
-    <script type="text/javascript" src="../js/jquery.1.10.2.js"></script>
-    <script type="text/javascript" src="../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.ui.js"></script>
     <script type="text/javascript" src="../js/ground_notice.js"></script>
 </body>
 </html>

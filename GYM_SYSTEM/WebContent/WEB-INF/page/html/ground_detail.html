@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../css/ground_detail.css">
 </head>
 <body>
-   
     <form>
       <p>
         <label for="ground_id">场地编号</label>
@@ -27,8 +26,6 @@
       <p>
         <label for="ground_isuse">可用状态</label>
         <input id="ground_isuse" type="text" name=""/>
-        <input type="button" name="" value="场地预留"/>
-        <input type="button" name="" value="取消预留">
       </p>
       <p>
         <label for="ground_admin">管理人员</label>
@@ -38,9 +35,9 @@
         <label for="ground_rate">场地租金</label>
         <input id="ground_reate" type="text" name=""/>
       </p>
-      <p>
-        <label>场地管理员</label>
-        <input type="button" value="修改场地" />
+      <p id="form_sub_re">
+        <input type="submit" value="提交修改" />
+        <input type="reset" value="重置数据" />
       </p>
     </form>
     <a href="ground_repair.html">租借详情</a>
@@ -48,8 +45,8 @@
 
 
 
-    <script type="text/javascript" src="../js/jquery.1.10.2.js"></script>
-    <script type="text/javascript" src="../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.form.js"></script>
     <script type="text/javascript" src="../js/ground_detail.js"></script>
 </body>
 </html>
