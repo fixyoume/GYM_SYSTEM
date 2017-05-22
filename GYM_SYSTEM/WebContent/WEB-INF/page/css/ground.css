@@ -1,8 +1,3 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
-
 .nav_bar{
 	width: 100%;
 	background: orange;
@@ -32,21 +27,4 @@
 	text-decoration: none;
 	display: block;
 	display: inline-block;
-}
-a{
-	text-decoration: none;
-}
-p{
-	margin:5px auto;
-}
-input{
-	width:150px;
-	border-radius:8px;
-	border:1px solid #ccc;
-}
-
-.ui-button-icon-only,
-.ui-dialog-titlebar-close{
-	background: url("../img/delete.png");
-	background-repeat:no-repeat;
 }
